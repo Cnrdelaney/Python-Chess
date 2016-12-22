@@ -55,6 +55,20 @@ class Pawn(Piece):
 		return moves
 
 
+class Bishop(Piece):
+
+	def __init__(self, pos=Position(), isWhite=True):
+		super().__init__(pos, isWhite)
+
+	#Gets all the possible moves of a Bishop based on its current position
+	def getALLMoves(self):
+		moves = []
+		
+
+
+
+
+
 
 #class Board:
 
